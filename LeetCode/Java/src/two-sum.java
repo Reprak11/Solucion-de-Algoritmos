@@ -1,5 +1,5 @@
-//https://leetcode.com/problems/two-sum/
-//Reprak11
+// https://leetcode.com/problems/two-sum/
+// Reprak11
 
 import java.util.Arrays;
 import java.util.Scanner;
