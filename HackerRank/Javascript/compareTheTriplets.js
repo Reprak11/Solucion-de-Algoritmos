@@ -23,3 +23,19 @@ let resul = compareTriplets(a,b);
 console.log(a);
 console.log(b);
 console.log(resul);
+
+
+
+/** georgedelaselva12 solution **/
+
+function compareTriplets(a, b) {
+
+    const awards=[0,0]
+
+    a.forEach((val,index)=>{
+        if(b[index]==a[index]) return false
+       return val>b[index] ? awards[0]++ : awards[1]++;
+    })
+
+    return awards
+}
