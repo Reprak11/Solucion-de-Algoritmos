@@ -3,7 +3,6 @@
 
 ###ESCRIBE TU CODIGO DESPUES DE ESTA LINEA.
 def es_capicua(n):
-    n = str(n)
     return n==n[::-1]
 
 def calcular_capicua(n):
