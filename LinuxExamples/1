@@ -1,0 +1,11 @@
+#!/bin/bash
+read n
+average = 0
+
+for i in {1..$n}
+do
+	read value
+	$average = $[$average + $value]
+done
+
+printf "%.3f" "$(echo "$average" | bc -l)"

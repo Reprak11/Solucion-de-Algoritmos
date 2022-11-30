@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "#!/bin/bash" > ./$1.sh;
-vim ./$1.sh;
+vim ./$.sh;
